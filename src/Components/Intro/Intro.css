@@ -1,0 +1,114 @@
+.intro {
+    display: flex;
+    height: 77vh;
+    margin-top: 6rem;
+}
+
+.iLeft {
+    display: flex;
+    position: relative;
+    flex: 1;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.iName {
+    display: flex;
+    flex-direction: column;
+}
+
+.iName>:nth-child(1) {
+    color: var(--black);
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.iName>:nth-child(2) {
+    color: var(--orange);
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.iName>:nth-child(3) {
+    color: var(--gray);
+    font-weight: 100;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.iButton {
+    width: 6rem;
+    height: 2rem;
+}
+
+.iIcons {
+    margin-top: 3rem;
+    display: flex;
+    gap: 0rem;
+}
+
+.iIcons>* {
+    transform: scale(0.5);
+}
+
+.iIcons>*:hover {
+    cursor: pointer;
+}
+
+.iRight {
+    flex: 1;
+}
+
+.iRight>* {
+    position: absolute;
+    z-index: 1;
+}
+
+.iRight> :nth-child(1) {
+    transform: scale(0.69);
+    left: 44%;
+    top: 21%;
+}
+
+.iRight> :nth-child(2) {
+    transform: scale(0.65);
+    left: 31rem;
+    top: 4.7rem;
+}
+
+.iRight> :nth-child(3) {
+    transform: scale(1.4);
+    left: 62.3%;
+    top: 26.5%;
+}
+
+.iRight> :nth-child(4) {
+    transform: scale(0.62);
+    top: 14%;
+    left: 39%;
+    border-radius: 50%;
+    padding: 0;
+}
+
+.blur{
+    position: absolute;
+    border-radius: 50%;
+    z-index: -9;
+    filter: blur(72px);
+}
+
+.blur1{
+    background: #EDD0FF;
+    width: 22rem;
+    height: 14rem;
+    top: 20%;
+    left: 67%;
+}
+
+.blur2{
+    background: #C1F5FF;
+    width: 21rem;
+    height: 11rem;
+    top: 24rem;
+    left: 31rem;
+}
