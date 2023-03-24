@@ -1,38 +1,28 @@
-.App {
-  text-align: center;
+@import url(//db.onlinewebfonts.com/c/00561b492d88a5287a5def1e83a34882?family=Gumela);
+
+* {
+  font-family: "Gumela";
+  font-weight: normal;
+  font-size: 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  margin: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.button {
+  border-radius: 34px;
+  border: none;
   color: white;
+  font-size: 16px;
+  padding: 11px 26px;
+  background: linear-gradient(180deg, #FDC50F 26.71%, #FB982F 99.36%);
+  box-shadow: 0px 20px 24px 3px rgba(251, 161, 40, 0.42);
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.button:hover{
+  background: white;
+  cursor: pointer;
+  color: var(--orange);
+  border: 1px solid var(--orange);
 }
